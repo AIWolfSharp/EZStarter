@@ -24,5 +24,5 @@ Java class to start aiwolf server and clients at the same time
   java -jar EZStarter.jar -p 12345 -n 5 -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer
   ```
   
-  In this example, server has accepted four connections from SampleRoleAssignPplayer,
+  In this example, server has accepted four connections from SampleRoleAssignPlayer,
   and is waiting one connection at port 12345.
