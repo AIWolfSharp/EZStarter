@@ -1,0 +1,6 @@
+{
+  "name": "Ezstarter",
+  "tagline": "Java class to start aiwolf server and clients at the same time",
+  "body": "# EZStarter\r\n\r\nJava class to start aiwolf server and clients at the same time\r\n\r\n### Usage\r\n\r\n   ```\r\n   -p port -n playerNum -c clientClass [requestRole] ( -c clientClass [requestRole] ...)\r\n   ```\r\n   \r\n   port : Port number of server\r\n   \r\n   playerNum : Total number of players\r\n   \r\n   clientClass : Name of player class\r\n   \r\n   requestRole (optional) : Specified role of player\r\n\r\n### Example\r\n\r\n  If the number of clients is less than playerNum,\r\n  the server waits connection until vacant clients are filled.\r\n  \r\n  ```\r\n  java -jar EZStarter.jar -p 12345 -n 5 -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer -c org.aiwolf.client.base.smpl.SampleRoleAssignPlayer\r\n  ```\r\n  \r\n  In this example, server has accepted four connections from SampleRoleAssignPlayer,\r\n  and is waiting one connection at port 12345.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
